@@ -7,4 +7,4 @@ RUN apt-get update && apt-get install -y openssl
 VOLUME ["/certificate"]
 
 # Keep docker running
-CMD ["bin/bash"]
+CMD tail -f /dev/null
